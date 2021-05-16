@@ -170,6 +170,7 @@ public class GT4500Test {
     boolean result = ship.fireTorpedo(FiringMode.SINGLE);
     
     // Assert
+    
     verify(s, times(1)).isEmpty();
     verify(s, times(0)).fire(1);
 
